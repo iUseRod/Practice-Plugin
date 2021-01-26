@@ -1,0 +1,12 @@
+name: SIMPED
+version: 1.0
+description: SIMPED PRACTICE CORE
+main: me.UseRod.simp.Main
+author: UseRod
+commands:
+   Unranked:
+     description: Availble Unranked Gamemodes
+     aliases: [ur, urk]
+   Ranked:
+     description: Availble Ranked Gamemodes
+     aliases: [r, rk]
