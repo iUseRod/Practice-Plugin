@@ -24,6 +24,7 @@ import org.bukkit.plugin.Plugin;
 
 public class Listeners implements Listener {
 	public Plugin plugin = Main.getPlugin(Main.class);
+	//This is Just a Horrible Code, i know, but just accept it, since i'm not wasting any other time editing this xD, i'm lazy i know..., but i have other topics! (like you)
 	Location ARENA1 = new Location(Bukkit.getWorld(this.plugin.getConfig().getString("ARENA1-WORLD")), this.plugin.getConfig().getDoubleList("ARENA1").get(0), this.plugin.getConfig().getDoubleList("ARENA1").get(1), this.plugin.getConfig().getDoubleList("ARENA1").get(2));
 	Location ARENA2 = new Location(Bukkit.getWorld(this.plugin.getConfig().getString("ARENA2-WORLD")), this.plugin.getConfig().getDoubleList("ARENA2").get(0), this.plugin.getConfig().getDoubleList("ARENA2").get(1), this.plugin.getConfig().getDoubleList("ARENA2").get(2));
 	Location ARENA3 = new Location(Bukkit.getWorld(this.plugin.getConfig().getString("ARENA3-WORLD")), this.plugin.getConfig().getDoubleList("ARENA3").get(0), this.plugin.getConfig().getDoubleList("ARENA3").get(1), this.plugin.getConfig().getDoubleList("ARENA3").get(2));
